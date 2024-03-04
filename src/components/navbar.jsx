@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const styles = {
   sidebar: {
@@ -11,7 +12,7 @@ const styles = {
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-transparent">
-      <div className="container">
+      <div className="container-fluid">
         <a className="navbar-brand fs-3" href="#">
           Portfolio.
         </a>
@@ -47,23 +48,52 @@ function Navbar() {
           <div className="offcanvas-body">
             <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
-                  Home
+                <a className="nav-link" href="#">
+                  <NavLink
+                    to="/"
+                    end
+                    className={({ isActive }) =>
+                      isActive ? "nav-link active" : "nav-link"
+                    }
+                  >
+                    Home
+                  </NavLink>
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  About
+                  <NavLink
+                    to="about"
+                    className={({ isActive }) =>
+                      isActive ? "nav-link active" : "nav-link"
+                    }
+                  >
+                    About
+                  </NavLink>
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Projects
+                  <NavLink
+                    to="projectGallery"
+                    className={({ isActive }) =>
+                      isActive ? "nav-link active" : "nav-link"
+                    }
+                  >
+                    Project Gallery
+                  </NavLink>
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link " href="#">
-                  Contact
+                <a className="nav-link" href="#">
+                  <NavLink
+                    to="contact"
+                    className={({ isActive }) =>
+                      isActive ? "nav-link active" : "nav-link"
+                    }
+                  >
+                    Contact
+                  </NavLink>
                 </a>
               </li>
             </ul>
