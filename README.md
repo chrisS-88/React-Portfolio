@@ -8,6 +8,10 @@ This website is a personal portfolio where you'll find a collection of my projec
 
 Crafted with React, this portfolio offers an interactive and engaging experience, showcasing my skills, projects, and achievements. With seamless navigation and a modern design, it provides a user-friendly interface across various devices. Leveraging React's capabilities, the portfolio dynamically updates content, supports efficient data management, and ensures smooth transitions for an immersive browsing experience.
 
+## Screenshot
+
+<img src="./src/assets/images/project_screenshot.png" height = 400px>
+
 ## Table of Contents
 
 - [License](#license)
