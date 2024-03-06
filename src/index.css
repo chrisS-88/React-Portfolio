@@ -2,12 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 22px;
+  font-family: "Poly", serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
   text-decoration: none;
 }
 
 body {
-  background-color: rgb(44, 44, 44);
-  color: white;
+  background-color: rgb(57, 62, 70);
+  color: rgb(238, 238, 238);
 }

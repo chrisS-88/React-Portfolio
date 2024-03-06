@@ -15,40 +15,41 @@ const styles = {
   aboutMe: {
     backgroundColor: "white",
     color: "rgb(44, 44, 44)",
-    height: "75vh",
+    height: "70vh",
     display: "flex",
     alignItems: "center",
     textAlign: "center",
-    padding: "0 6rem",
+    padding: "6em",
   },
   arrowDownSection: {
     backgroundColor: "white",
     textAlign: "center",
-    paddingBottom: "3em",
+    paddingBottom: "2em",
+    color: "rgb(44, 44, 44)",
   },
 
   skillsGrid: {
-    color: "rgb(255, 109, 40)",
+    color: "white",
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    padding: "1em",
+    padding: "2em",
     borderRadius: "20px",
   },
   skillsCell: {
-    padding: "1em",
-    height: "200px",
-    backgroundColor: "rgb(60, 60, 60,0.4)",
+    height: "220px",
+    backgroundColor: "rgb(221, 221, 221,0.1)",
     borderRadius: "20px",
     margin: "1em",
+    paddingTop: "1em",
   },
 };
 
 function About() {
   return (
     //  ABOUT SECTION
-    <div className="container-fluid" id="aboutSection">
-      <div className="row">
+    <div className="container-fluid">
+      <div className="row " id="aboutSection">
         <div className="col" style={styles.aboutMe}>
           <p>
             " Welcome to my corner of the web! I'm Chris, a passionate web developer
@@ -59,7 +60,7 @@ function About() {
           </p>
         </div>
         <div className="container-fluid" style={styles.arrowDownSection}>
-          <p>Proficient Technologies</p>
+          <h3>Proficient Technologies</h3>
           <a href="#skillsSection" style={styles.skillsLink}>
             <img src={arrowDown} alt="arrow down logo" width="80px" />
           </a>
@@ -68,46 +69,46 @@ function About() {
       {/* // TECH STACK SECTION */}
       <div className="container-fluid text-center vh-100" id="skillsSection">
         <div className="container-fluid mt-5">
-          <a href="#aboutSection">
+          <a href="#">
             <img src={arrowUp} alt="arrow down logo" width="80px" />
           </a>
-          <p className="text-white">About</p>
+          <h3 className="text-white">About</h3>
         </div>
         <div className="container">
           <div className="row row-cols-sm-1 row-cols-lg-4" style={styles.skillsGrid}>
-            <div class="col" style={styles.skillsCell}>
+            <div className="col" style={styles.skillsCell}>
               <p>HTML</p>
               <img src={htmlLogo} alt="" width="120px" />
             </div>
-            <div class="col" style={styles.skillsCell}>
+            <div className="col" style={styles.skillsCell}>
               <p>CSS</p>
               <img src={cssLogo} alt="" width="120px" />
             </div>
-            <div class="col" style={styles.skillsCell}>
+            <div className="col" style={styles.skillsCell}>
               <p>Javascript</p>
               <img src={jsLogo} alt="" width="120px" />
             </div>
-            <div class="col" style={styles.skillsCell}>
+            <div className="col" style={styles.skillsCell}>
               <p>Git</p>
               <img src={gitLogo} alt="" width="120px" />
             </div>
-            <div class="col" style={styles.skillsCell}>
+            <div className="col" style={styles.skillsCell}>
               <p>Bootstrap</p>
               <img src={bootstrapLogo} alt="" width="120px" />
             </div>
-            <div class="col" style={styles.skillsCell}>
+            <div className="col" style={styles.skillsCell}>
               <p>jQuery</p>
               <img src={jqueryLogo} alt="" width="120px" />
             </div>
-            <div class="col" style={styles.skillsCell}>
+            <div className="col" style={styles.skillsCell}>
               <p>Responsive Design</p>
               <img src={responsiveLogo} alt="" width="120px" />
             </div>
-            <div class="col" style={styles.skillsCell}>
+            <div className="col" style={styles.skillsCell}>
               <p>Node JS</p>
               <img src={nodeLogo} alt="" width="120px" />
             </div>
-            <div class="col" style={styles.skillsCell}>
+            <div className="col" style={styles.skillsCell}>
               <p>React</p>
               <img src={reactLogo} alt="" width="120px" />
             </div>

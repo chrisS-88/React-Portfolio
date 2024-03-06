@@ -3,6 +3,7 @@ import profileImg from "../../assets/images/profile_avatar.jpeg";
 import gitIcon from "../../assets/images/github_icon.png";
 import linkedIcon from "../../assets/images/linked_icon.png";
 import emailIcon from "../../assets/images/email_icon.png";
+import "../home/home.css";
 
 const styles = {
   container: {
@@ -13,10 +14,9 @@ const styles = {
     fontSize: "32px",
   },
   h1: {
-    color: "rgb(255, 109, 40)",
+    color: "rgb(240, 84, 84)",
     fontSize: "50px",
-    fontFamily: "Londrina Outline, sansSerif",
-    fontWeight: "400",
+    fontWeight: "500",
     fontStyle: "normal",
   },
 
@@ -35,18 +35,21 @@ const styles = {
     marginBottom: "4em",
   },
   cvLink: {
-    textDecoration: "none",
-    color: "rgb(255, 109, 40)",
+    textDecoration: "underlined",
+    fontWeight: "600",
+    color: "rgb(240, 84, 84)",
   },
 };
 function Home() {
   return (
     <div className="container-fluid" style={styles.container}>
-      <div className="row text-center-left mt-4 mx-3">
-        <h2 style={styles.h2}>Hi, I'm</h2>
-        <h1 style={styles.h1}>Chris</h1>
+      <div className="row   mx-3">
+        <h2 style={styles.h2}>
+          Hi, I'm <span style={styles.h1}>Chris</span>
+        </h2>
+
         <h2 style={styles.h2}>Front-End Web Developer based in Leeds</h2>
-        <p className="mt-5">
+        <p className=" mt-5">
           Check out my{" "}
           <a
             href="https://docs.google.com/document/d/19VwSX3prFnQxrLLXqs1aS05XqDKh7nIJmK8lNVOF8qU/edit"
@@ -59,20 +62,28 @@ function Home() {
           Or reach out on my socials below
         </p>
 
-        <div className="row mt-3" style={styles.imgRow}>
+        <div className="row mt-2" style={styles.imgRow}>
           <div className="col-12 col-md-6" style={styles.socialIcons}>
-            <a href="mailto:chrissmart920@gmail.com" target="blank" className="m-4">
-              <img src={emailIcon} alt="email logo" width="50px" />
+            <a
+              href="mailto:chrissmart920@gmail.com"
+              target="blank"
+              className="m-4 link-icon"
+            >
+              <img src={emailIcon} alt="email logo" width="40px" />
             </a>
-            <a href="https://github.com/chrisS-88" target="blank" className="m-4">
-              <img src={gitIcon} alt="git logo" width="50px" />
+            <a
+              href="https://github.com/chrisS-88"
+              target="blank"
+              className="m-4 link-icon"
+            >
+              <img src={gitIcon} alt="git logo" width="40px" />
             </a>
             <a
               href="https://www.linkedin.com/in/chris-smart-490856244/"
               target="blank"
-              className="m-4"
+              className="m-4 link-icon"
             >
-              <img src={linkedIcon} alt="linkedIn logo" width="50px" />
+              <img src={linkedIcon} alt="linkedIn logo" width="40px" />
             </a>
           </div>
           <div className="col-12 col-md-6 text-center">
@@ -80,21 +91,6 @@ function Home() {
           </div>
         </div>
       </div>
-      {/* <div className="col-12 text-center fixed-bottom mb-5">
-        <a href="https://github.com/chrisS-88" target="blank" className="m-4">
-          <img src={gitIcon} alt="git logo" width="40px" />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/chris-smart-490856244/"
-          target="blank"
-          className="m-4"
-        >
-          <img src={linkedIcon} alt="linkedIn logo" width="60px" />
-        </a>
-        <a href="mailto:chrissmart920@gmail.com" target="blank" className="m-4">
-          <img src={emailIcon} alt="email logo" width="40px" />
-        </a>
-      </div> */}
     </div>
   );
 }

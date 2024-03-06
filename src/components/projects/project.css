@@ -1,0 +1,22 @@
+.card-custom {
+  background-color: rgba(64, 69, 78, 0.537);
+  border-top: 2px solid rgb(240, 84, 84);
+}
+
+.card-custom:hover {
+  scale: 1.1;
+  transition: 0.4s;
+  border-radius: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+.link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.tech-used {
+  color: rgb(240, 84, 84);
+}

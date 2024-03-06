@@ -1,0 +1,26 @@
+.formDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4em;
+}
+
+.form {
+  width: 60%;
+  max-width: 800px;
+  min-width: 400px;
+  background-color: rgba(64, 69, 78, 0.537);
+  border-top: 1px solid rgb(240, 84, 84);
+  padding: 2em;
+}
+
+.submit-btn {
+  background-color: white;
+  border: none;
+  color: rgb(240, 84, 84);
+}
+
+.submit-btn:hover {
+  scale: 1.1;
+  transition: 0.2s;
+}
