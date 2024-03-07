@@ -4,7 +4,7 @@
     "name": "README Generator",
     "description": "A Node application that can take user input and generate a formatted README file",
     "technologies": ["JavaScript, ", "Node"],
-    "image": "./public/assets/images/screenshots/readmeGen.jpg",
+    "image": "./assets/images/screenshots/readmeGen.jpg",
     "gitHub": "https://github.com/chrisS-88/README-generator"
   },
   {
@@ -12,7 +12,7 @@
     "name": "Team Profile Generator",
     "description": "A simple command-line application that generates profiles for your work team.",
     "technologies": ["HTML, ", "JavaScript"],
-    "image": "./public/assets/images/screenshots/teamProfile.jpg",
+    "image": "./assets/images/screenshots/teamProfile.jpg",
     "gitHub": "https://github.com/chrisS-88/Team-Profile-Generator"
   },
   {
@@ -20,7 +20,7 @@
     "name": "Rhyme Radar",
     "description": "RhymeRadar is a user-friendly and innovative application designed to enhance your music discovery experience. With a vast database of lyrics spanning across genres and artists",
     "technologies": ["HTML, ", "CSS, ", "JavaScript,  ", "Bootstrap"],
-    "image": "./public/assets/images/screenshots/rhyme_radar.jpg",
+    "image": "./assets/images/screenshots/rhyme_radar.jpg",
     "URL": "https://chriss-88.github.io/Rhyme-Radar/",
     "gitHub": "https://github.com/chrisS-88/Rhyme-Radar"
   },
@@ -29,7 +29,7 @@
     "name": "Analogue Clock",
     "description": "A Clock built with HTML, CSS, and JavaScript is a dynamic and interactive web-based timepiece. Using modern web technologies, it accurately displays the current time, updating in real-time.",
     "technologies": ["HTML, ", "CSS, ", "JavaScript "],
-    "image": "./public/assets/images/screenshots/clock.jpg",
+    "image": "./assets/images/screenshots/clock.jpg",
     "URL": "https://chriss-88.github.io/Clock/",
     "gitHub": "https://github.com/chrisS-88/Clock"
   },
@@ -39,7 +39,7 @@
     "name": "Weater Dashboard",
     "description": "A Weather Dashboard is a user-friendly interface that provides real-time weather information and forecasts for specific locations. It displays current weather conditions, such as temperature, humidity and wind speed.",
     "technologies": ["HTML, ", "CSS, ", "JavaScript, ", "Bootstrap"],
-    "image": "./public/assets/images/screenshots/weatherDash.jpg",
+    "image": "./assets/images/screenshots/weatherDash.jpg",
     "URL": "https://chriss-88.github.io/Weather-Dashboard/",
     "gitHub": "https://github.com/chrisS-88/Weather-Dashboard"
   },
@@ -48,7 +48,7 @@
     "name": "JS Quiz",
     "description": "JavaScript Multiple Choice Quiz: Test your knowledge with this interactive quiz! Answer a series of questions covering various JavaScript concepts and features. Choose the correct option from multiple choices and see how well you score!",
     "technologies": ["HTML, ", "CSS, ", "JavaScript"],
-    "image": "./public/assets/images/screenshots/jsQuiz.jpg",
+    "image": "./assets/images/screenshots/jsQuiz.jpg",
     "URL": "https://chriss-88.github.io/JS-Quiz/",
     "gitHub": "https://github.com/chrisS-88/JS-Quiz"
   }
