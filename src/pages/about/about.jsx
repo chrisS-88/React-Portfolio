@@ -67,7 +67,7 @@ function About() {
         </div>
       </div>
       {/* // TECH STACK SECTION */}
-      <div className="container-fluid text-center vh-100" id="skillsSection">
+      <div className="container-fluid text-center" id="skillsSection">
         <div className="container-fluid mt-5">
           <a href="#">
             <img src={arrowUp} alt="arrow down logo" width="80px" />
@@ -78,39 +78,39 @@ function About() {
           <div className="row row-cols-sm-1 row-cols-lg-4" style={styles.skillsGrid}>
             <div className="col" style={styles.skillsCell}>
               <p>HTML</p>
-              <img src={htmlLogo} alt="" width="120px" />
+              <img src={htmlLogo} alt="logo" width="120px" />
             </div>
             <div className="col" style={styles.skillsCell}>
               <p>CSS</p>
-              <img src={cssLogo} alt="" width="120px" />
+              <img src={cssLogo} alt="logo" width="120px" />
             </div>
             <div className="col" style={styles.skillsCell}>
               <p>Javascript</p>
-              <img src={jsLogo} alt="" width="120px" />
+              <img src={jsLogo} alt="logo" width="120px" />
             </div>
             <div className="col" style={styles.skillsCell}>
               <p>Git</p>
-              <img src={gitLogo} alt="" width="120px" />
+              <img src={gitLogo} alt="logo" width="120px" />
             </div>
             <div className="col" style={styles.skillsCell}>
               <p>Bootstrap</p>
-              <img src={bootstrapLogo} alt="" width="120px" />
+              <img src={bootstrapLogo} alt="logo" width="120px" />
             </div>
             <div className="col" style={styles.skillsCell}>
               <p>jQuery</p>
-              <img src={jqueryLogo} alt="" width="120px" />
+              <img src={jqueryLogo} alt="logo" width="120px" />
             </div>
             <div className="col" style={styles.skillsCell}>
               <p>Responsive Design</p>
-              <img src={responsiveLogo} alt="" width="120px" />
+              <img src={responsiveLogo} alt="logo" width="120px" />
             </div>
             <div className="col" style={styles.skillsCell}>
               <p>Node JS</p>
-              <img src={nodeLogo} alt="" width="120px" />
+              <img src={nodeLogo} alt="logo" width="120px" />
             </div>
             <div className="col" style={styles.skillsCell}>
               <p>React</p>
-              <img src={reactLogo} alt="" width="120px" />
+              <img src={reactLogo} alt="logo" width="120px" />
             </div>
           </div>
         </div>
